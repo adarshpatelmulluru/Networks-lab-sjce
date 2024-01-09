@@ -29,7 +29,7 @@ set n1 [$ns node]
 set n2 [$ns node]
 
 $n0 label "tcp source"
-$n2 label "tcpp sink"
+$n2 label "tcp sink"
 
 $ns duplex-link $n0 $n1 1Mb 4ms DropTail #bandwidth and delay can varied for varying papckets dropped
 $ns duplex-link $n1 $n2 1Mb 4ms DropTail
