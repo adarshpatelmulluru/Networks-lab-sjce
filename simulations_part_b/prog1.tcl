@@ -16,8 +16,6 @@ $ns flush-trace
 close $tracefile
 close $namfile
 exec nam prog1.nam &
-#set drop_count [string trim[exec grep -c "^d" prog1.tr] 0-9]
-#puts "the number of packets dropped are: $drop_count"
 puts "The number of packet drops is [exec grep -c "^d" prog1.tr]"
 #exec grep -c "^d" prog1.tr &  #-c counts the number of times "^d" occurs in prog1.tr
 exit 0
