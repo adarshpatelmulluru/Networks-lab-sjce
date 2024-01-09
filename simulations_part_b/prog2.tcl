@@ -20,7 +20,7 @@ close $namfile
 exec nam prog2.nam &
 exec echo "no of ping packets dropped are " &
 #exec grep -c "^d" prog2.tr | cut -d " " -f 5 | grep -c "ping" &
-puts "The number of ping packets dropped are: [exec grep -c "^d" prog2.tr]"
+puts "The number of ping packets dropped are: [exec grep -c "^d" prog2.tr |  cut -d " " -f 5 | grep -c "ping"]"
 exit 0
 }
 
