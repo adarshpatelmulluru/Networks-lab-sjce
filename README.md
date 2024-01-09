@@ -1,5 +1,5 @@
 # Networks-lab-sjce 
- * Program number 1 of the lab curriculum , is not present for the examination hence not included
+ * Program number 1 of the lab curriculum , is not present for the examination hence , not included
 
 The lab examination follows the following order
 
